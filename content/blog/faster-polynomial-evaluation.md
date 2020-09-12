@@ -37,7 +37,7 @@ Translated into code, the [evaluation](https://en.wikipedia.org/wiki/Horner%27s_
 ```scala
 def compute(variable: BigInt): BigInt = {
     @tailrec
-    def loop(accumulator: BigInt, coef: List[BigInt]): BigInt = {
+    def loop(accumulator: BigInt, coefficients: List[BigInt]): BigInt = {
       coefficients match {
         case Nil => accumulator
         case coefficient :: remaining =>
