@@ -19,7 +19,7 @@ In most cases, defining an API and using it can be quite prone to errors.
 
 Every Scala HTTP library has its own approach in building and defining endpoints, requests and responses which can become tedious in maintaining. 
 
-Morever, there's no support to properly document the APIs, _this means that the documentation is manually defined which will eventually lead to integration errors_. 
+Morever, there's no support to properly document the APIs, _this means that the documentation is manually defined which will eventually lead to integration errors due to becoming outdated or to simple mistakes_. 
 
 However, the most important aspect is that there's _no compile-time guarantee_ that the requests are well-formed and that the client will correctly communicate with the server.
 
@@ -70,7 +70,7 @@ Even without the additional comments the code is quite readable. We can easily n
 
 
 #### Server
-Given the API definition, one could start building the web server in its preferred stack. (In this case [http4s](https://http4s.org/))
+Given the API definition, one could start building the web server in their preferred stack. (In this case [http4s](https://http4s.org/))
 
 ```scala
 
