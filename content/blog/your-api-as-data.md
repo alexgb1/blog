@@ -66,7 +66,7 @@ sealed trait Error
 case class NotFound(message: String) extends Error
  ```
 
-Even without the additional comments the code is quite readable. We can easily notice what is supposed to go in the endpoint and out of it, as well as which errors are to be expected.
+Even without the additional comments the code is quite readable. We can easily notice what is supposed to go in the endpoint and out of it, as well as which errors are expected.
 
 
 #### Server
