@@ -21,7 +21,7 @@ Every Scala HTTP library has its own approach in building and defining endpoints
 
 Morever, there's no support to properly document the APIs, _this means that the documentation is manually defined which will eventually lead to integration errors_. 
 
-However, the most important is that there's _no compile-time guarantee_ that the requests are well-formed and that the client will correctly communicate with the server.
+However, the most important aspect is that there's _no compile-time guarantee_ that the requests are well-formed and that the client will correctly communicate with the server.
 
 ## Potential to improve
 
