@@ -70,7 +70,7 @@ Even without the additional comments the code is quite readable. We can easily n
 
 
 #### Server
-Given the API definition, one could start building the web server in its preferred stack. (In this case [http4s](https://http4s.org/)).
+Given the API definition, one could start building the web server in its preferred stack. (In this case [http4s](https://http4s.org/))
 
 ```scala
 
