@@ -15,7 +15,7 @@ If you are interested in the correctness of your Web API, you should consider bu
 
 ## Just the usual
 
-In most of the businesses defining an API and using it in practice can be quite prone to errors. 
+In most cases, defining an API and using it can be quite prone to errors. 
 
 Every Scala HTTP library has its own approach in building and defining endpoints, requests and responses which can become tedious in maintaining. 
 
