@@ -10,7 +10,7 @@ math: true
 toc: false
 ---
 
-The general idea of secret sharing begins with a __secret__ which is divided into multiple pieces called __shares__, where each share is assigned to a user in such a manner that a given subset of shares from users can be used to reconstruct the original secret.
+The general idea of secret sharing begins with a __secret__ which is divided into multiple pieces called __shares__. Each share is assigned to a user in such a manner that a given subset of shares from users can be used to reconstruct the original secret.
 
 The motivation for this concept is related to the ability to safeguard cryptographic keys from loss or exposure. Secret sharing schemes are multi-party protocols related to the key establishment, where for example a private key in an asymmetric cryptosystem can be split between multiple entities for safely controlling decryption or signature creation.
 
