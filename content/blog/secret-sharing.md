@@ -30,7 +30,7 @@ In the *setup* phase, the trusted party $TP$ starts with a secret integer $S \ge
 3. $TP$ computes $S_i=f(i) mod \ P$, for $0 \leq i \leq P-1$, and transfers each share $S_i$, in a secure manner, to user $U_i$, along with its public index $i$. The source code can be found [here](https://github.com/alexgb1/secret-sharing/blob/main/src/main/scala/org/example/secretsharing/shamir/ShamirSecretSharingScheme.scala#L14).
 
 ### Reconstruction phase
-In the *reconstruction* phase, any group of $t$ or more users pool their shares as distinct points $(x, y) = (i, S_i)$, can compute the coefficients $a_j, 1 \leq j \leq t-1 $ of $f(x)$ by using the [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). Using the computed coefficients, the secret can be recovered from $f(0) = S$. Since $f(0) = S$, the shared secret can be expressed as:
+In the *reconstruction* phase, any group of $t$ or more users pool their shares as distinct points $(x, y) = (i, S_i)$, can compute the coefficients $c_j, 1 \leq j \leq t-1 $ of $f(x)$ by using the [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). Using the computed coefficients, the secret can be recovered from $f(0) = S$. Since $f(0) = S$, the shared secret can be expressed as:
 
  $$S = \sum_{i=1}^{t}k_i y_i$$ where $ k_i $ is: $$k_i = \prod_{j=1, j \neq i}^{t} \frac{x_j}{x_j - x_i}$$
 
