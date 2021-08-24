@@ -7,7 +7,7 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "alexgb1"
 languageCode = "en-us"
-baseURL = "https://agbuzneanu.com"
+baseURL = "https://alexgb.co.uk"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
