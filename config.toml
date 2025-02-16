@@ -13,9 +13,6 @@ copyright = "© {year}"
 # Add your Disqus shortname here.
 # disqusShortname = ""
 
-# Add your Google Analytics identifier: UA-XXXXXXXX-X
-googleAnalytics = "UA-23997013-2" 
-
 # Optional params
 [params]
   # Follow the Hugo date/time format reference here: 
