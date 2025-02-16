@@ -7,7 +7,7 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "alexgb1"
 languageCode = "en-us"
-baseURL = "https://alexgb.co.uk"
+baseURL = "alexgb1.github.io"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
@@ -24,7 +24,7 @@ googleAnalytics = "UA-23997013-2"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   github = "https://github.com/alexgb1"
-  linkedin = "https://www.linkedin.com/in/alexandru-gabriel-buzneanu-72565393"
+  linkedin = "https://www.linkedin.com/in/alexandru-buzneanu-72565393/"
   iconOrder = ["GitHub", "LinkedIn"]
 
   showPageTitleInTOC = true
